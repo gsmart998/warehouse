@@ -2,3 +2,92 @@
 	margin: 0;
 	padding: 0;
 }
+
+.header {
+	position: relative;
+	height: 665px;
+	width: 100%;
+	background-color: #e9eae2;
+
+	.logo{
+		position: absolute;
+		top: 20px;
+		left: 20px;
+		width: 48px;
+		height: 48px;
+		display: flex;
+		flex-wrap: wrap;
+		cursor: pointer;
+
+		div {
+			width: 50%;
+			height: 50%;
+		}
+		.orange {
+			background: #f7c155;
+		}
+		.green {
+			background: #bfe79e;
+		}
+		.red {
+			background: #f1996c;
+		}
+		.blue {
+			background: #7dd5c9;
+		}
+	}
+	.triangle {
+		width: 340px;
+		height: 280px;
+		position: relative;
+		left: 185px;
+		box-sizing: border-box;
+		border: 170px solid transparent;
+		border-top: 280px solid #f8c34a;
+		border-bottom: 0px;
+
+		.logo{
+			position: relative;
+			left: -36px;
+			top: -190px;
+			background-image: url("img/salt-logo.png");
+			width: 72px;
+			height: 53px;
+		}
+	}
+	nav {
+		position: absolute;
+		top: 20px;
+		right: 20px;
+	}
+	.big-salt {
+		height: 470px;
+		width: 380px;
+		border: solid black 1px;
+
+		.left {
+			background-image: url("img/big-salt-left.png");
+			background-color: red;
+			width: 180px;
+			height: 360px;
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
